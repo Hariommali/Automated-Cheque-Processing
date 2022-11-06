@@ -1,38 +1,47 @@
-Run these commands step-by-step,
-on your terminal.
-
-1.  apt update && upgrade
-2.  pkg install git
-3.  git clone https://github.com/Hariompc1/Automated-Cheque-Processing
-
-MOVE INTO THE FILE
-
-4.  cd Automated-Cheque-Processing/Prototype
-
-5.  Install boost libraries from below link,
-    
-    https://www.boost.org/doc/libs/1_62_0/more/getting_started/unix-variants.html#get-boost
-
-MOVE THE 'boost' FILE TO YOUR INCLUDE FILE
-COMMON LOACATION ' ../user/include 
-
-6.  pkg install python
-7.  pkg install opencv-python
-8.  apt update && upgrade
-9.  pip install --upgrade pip
-10. pip install pillow
-11. pip install imutils
-
-AFTER INSTALLING THESE COMMANDS SUCCESSFULLY,
- RUN THE MAIN FILE - ATCVM.cpp,
-
-12. g++ ATCVM.cpp
-13. ./a.out
-
-If any error occurs you may contact me.
 
 
 
+#################################################################################################################
+# ############################################################################################################# #
+# #                                                                                                           # #
+# #                                                                                                           # #
+# #                                                                                                           # #  
+# #         Run these commands step-by-step,                                                                  # # 
+# #         on your terminal.                                                                                 # # 
+# #                                                                                                           # # 
+# #          1.  apt update && upgrade                                                                        # # 
+# #          2.  pkg install git                                                                              # #  
+# #          3.  git clone https://github.com/Hariompc1/Automated-Cheque-Processing                           # # 
+# #                                                                                                           # #  
+# #         MOVE INTO THE FILE                                                                                # #
+# #                                                                                                           # #
+# #          4.  cd Automated-Cheque-Processing/Prototype                                                     # #
+# #          5.  Install boost libraries from below link,.                                                    # #
+# #                                                                                                           # #
+# #          https://www.boost.org/doc/libs/1_62_0/more/getting_started/unix-variants.html#get-boost          # #
+# #                                                                                                           # #
+# #         MOVE THE 'boost' FILE TO YOUR INCLUDE FILE                                                        # #
+# #         COMMON LOACATION ' ../user/include                                                                # #
+# #                                                                                                           # #
+# #          6.  pkg install python                                                                           # #
+# #          7.  pkg install opencv-python                                                                    # #
+# #          8.  apt update && upgrade                                                                        # #
+# #          9.  pip install --upgrade pip                                                                    # #
+# #          10. pip install pillow                                                                           # #
+# #          11. pip install imutils                                                                          # #
+# #                                                                                                           # #
+# #          AFTER INSTALLING THESE COMMANDS SUCCESSFULLY,                                                    # #
+# #          RUN THE MAIN FILE - ATCVM.cpp,                                                                   # #
+# #                                                                                                           # #
+# #          12. g++ ATCVM.cpp                                                                                # #
+# #          13. ./a.out                                                                                      # #
+# #                                                                                                           # #
+# #         If any error occurs you may contact me.                                                           # #
+# #                                                                                                           # #
+# #                                                                                                           # #
+# #                                                                                                           # #
+# ############################################################################################################# #
+#################################################################################################################
 
 
 
