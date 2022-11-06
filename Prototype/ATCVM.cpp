@@ -446,6 +446,7 @@ void atcvm::workingprogram()
 						cout<<endl<<endl;
 						access.hashline();
 						access.hashline();
+                                                system("g++ remove_file.cpp"); system("./a.out");
 						exit(0);
 						break;
 					case '3':
