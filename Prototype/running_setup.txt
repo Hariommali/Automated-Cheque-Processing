@@ -23,6 +23,11 @@ COMMON LOACATION ' ../user/include
 10. pip install pillow
 11. pip install imutils
 
+AFTER THESE COMMANDS RUN THE MAIN FILE -ATCVM.cpp,
+
+12. g++ ATCVM.cpp
+13. ./a.out
+
 If any error occurs you may contact me.
 
 
