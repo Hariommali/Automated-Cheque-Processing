@@ -393,25 +393,25 @@ void atcvm::workingprogram()
                         rg>>rgt;
 	
 
-	char s[20];      
-	int128_t bal;
-	int num;
+	char s[20],s_d[20],s_c[20];      
+	int128_t bal,bal_d,bal_c;
+	int num,numd,numc;
 
 
-	for(int i=100;i<104;i++) {
+			pp[rgt].get(s,num,bal);
+			bal_d=bal-funds;
+			strcpy(s_d,s);
+			numd=num;
+			pp[rgt].set(s_d,numd,bal_d);
 
-		if(rgt == i) {
-			pp[i].get(s,num,bal);
-			bal=bal-funds;
-			pp[i].set(s,num,bal);
+			pp[lft].get(s,num,bal);
+			bal_c=bal+funds;
+			strcpy(s_c,s);
+			numc=num;
+			pp[lft].set(s_c,numc,bal_c);
 
-		}
-		if(lft == i) {
-			pp[i].get(s,num,bal);
-			bal=bal+funds;
-			pp[i].set(s,num,bal);
 			std::cout<<speed{"\t\t\tNAMASTE ",200};
-			std::cout<<speed{s,300};
+			std::cout<<speed{s_c,300};
 			cout<<","<<endl;
 			std::cout<<speed{"\t\t\tWELL COME\n\n\n",150};
 			std::cout<<speed{"\t\t\tSHRI ",150};
@@ -435,7 +435,7 @@ void atcvm::workingprogram()
 				{
 					case '1':
 						std::cout<<speed{"\t\t\tYOUR UPDATED BALANCE IS $",80};
-                                                cout<<bal<<".00\n\n";
+                                                cout<<bal_c<<".00\n\n";
                                                 break;
                                         case '2':
 						//access.hashline();
@@ -450,19 +450,16 @@ void atcvm::workingprogram()
 						exit(0);
 						break;
 					case '3':
-						pp[rgt].get(s,num,bal);
 						std::cout<<speed{"\t\t\t\t NAMASTE SHRI,",80};
-						std::cout<<speed{ s ,80};
+						std::cout<<speed{ s_d ,80};
 						std::cout<<speed{"\n\n\t\t\t\t FROM YOUR ACCOUNT: ",80};
-						cout<< num;
+						cout<< numd;
 						std::cout<<speed{ "\n\t\t\t\t $",80};
 						cout<<funds;
 						std::cout<<speed{"  DEDUTED. TO SHRI  ",80};
-						pp[lft].get(s,num,bal);
-						std::cout<<speed{s,80};
+						std::cout<<speed{s_c,80};
 						std::cout<<speed{"\n\t\t\t\t YOUR CURRENT BALANCE $" ,80};
-						pp[rgt].get(s,num,bal);
-						cout<<bal<<endl<<endl<<endl;
+						cout<<bal_d<<endl<<endl<<endl;
 
 						break;
 
@@ -473,14 +470,8 @@ void atcvm::workingprogram()
 				}
                         
 			}
-                
-		}
-        
-	}
-
-	delete [] pp;
-	exit(0);
-
+			delete [] pp;
+			exit(0);
 }
 
 
