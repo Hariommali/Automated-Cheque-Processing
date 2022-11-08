@@ -419,7 +419,7 @@ void atcvm::workingprogram()
 
 			while(true)
 			{
-				access.hashline();
+				//access.hashline();
 
 				std::cout<<speed{"\t\t\tPLEASE CHOOSE YOUR OPTION\n\n",80};
 				std::cout<<speed{"\t\t\t\t1.KNOW YOUR UPDATED BALANCE\n",80};
@@ -438,7 +438,7 @@ void atcvm::workingprogram()
                                                 cout<<bal<<".00\n\n";
                                                 break;
                                         case '2':
-						access.hashline();
+						//access.hashline();
 						access.hashline();
 						cout<<endl<<endl;
 						system("gcc big_char.c");
