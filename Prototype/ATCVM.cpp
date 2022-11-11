@@ -97,7 +97,7 @@ class bank_database : public atcvm {
 		num=acc_no;
 		bal=cur_bal;
 	}
-	void set_tip(long int funds) {
+	/*void set_tip(long int funds) {
 		tip = (int128_t)funds;
 
 	}
@@ -105,7 +105,7 @@ class bank_database : public atcvm {
 		funds = tip;
 
 		cout<<funds;
-	}
+	}*/
 
 };
 
@@ -142,7 +142,7 @@ void atcvm::instruct()
 {
 	atcvm access;
 
-	std::cout<<speed{"\tTYPE ANY KEY TO CONTINUE\n",50};
+	std::cout<<speed{"\tPRESS ENTER KEY TO CONTINUE\n",50};
         getchar();
 	
         std::cout<<speed{"\tPLEASE UPLOAD YOUR CHEQUE\n\t\tAND CHOOSE YOUR DESIRED OPTION\n",50};
