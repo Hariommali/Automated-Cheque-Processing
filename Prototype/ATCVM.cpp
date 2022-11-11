@@ -493,38 +493,7 @@ int main()
 	access.hashline();
 
 	access.greetingsmessage();
-
-
-	std::cout<<speed{"\tTYPE ANY KEY TO CONTINUE\n",50};
-        getchar();
-
-        std::cout<<speed{"\tPLEASE UPLOAD YOUR CHEQUE\n\t\tAND CHOOSE YOUR DESIRED OPTION\n",50};
-
-	while(true)
-	{
-	std::cout<<speed{"\t\t\t 1 DOCUMENT UPLOADED\n",50};
-        std::cout<<speed{"\t\t\t 2 TERMINATE SESSION\n",50};
-
-        char ch;
-        cin>>ch;
-        switch(ch)
-        {
-		case '1':
-			access.workingprogram();
-
-			break;
-
-		case '2':
-			exit(0);
-			break;
-
-		default :
-
-			cout<<"\t\t\tPLEASE CHOOSE YOUR RIGHT OPTION\n";
-			break;
-
-	}
-	}
+        access.instruct();
 
 return 0;
 }
