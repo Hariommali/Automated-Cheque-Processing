@@ -25,7 +25,7 @@
 # #                                                                                                           # #
 # #          6.  pkg install python                                                                           # #
 # #          7.  pkg install opencv-python                                                                    # #
-# #          8.  apt update && upgrade                                                                        # #
+# #          8.  apt update && apt upgrade                                                                        # #
 # #          9.  pip install --upgrade pip                                                                    # #
 # #          10. pip install pillow                                                                           # #
 # #          11. pip install imutils                                                                          # #
