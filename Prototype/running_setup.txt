@@ -9,7 +9,7 @@
 # #         Run these commands step-by-step,                                                                  # # 
 # #         on your terminal.                                                                                 # # 
 # #                                                                                                           # # 
-# #          1.  apt update && upgrade                                                                        # # 
+# #          1.  apt update && apt upgrade                                                                        # # 
 # #          2.  pkg install git                                                                              # #  
 # #          3.  git clone https://github.com/Hariompc1/Automated-Cheque-Processing                           # # 
 # #                                                                                                           # #  
