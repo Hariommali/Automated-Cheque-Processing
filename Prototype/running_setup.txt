@@ -24,17 +24,13 @@
 # #         COMMON LOACATION ' ../user/include                                                                # #
 # #                                                                                                           # #
 # #          6.  pkg install python                                                                           # #
-# #          7.  pkg install opencv-python                                                                    # #
-# #          8.  apt update && apt upgrade                                                                    # #
-# #          9.  pip install --upgrade pip                                                                    # #
-# #          10. pip install pillow                                                                           # #
-# #          11. pip install imutils                                                                          # #
+# #          7.  python software.py                                                                           # #
 # #                                                                                                           # #
 # #          AFTER INSTALLING THESE COMMANDS SUCCESSFULLY,                                                    # #
 # #          RUN THE MAIN FILE - ATCVM.cpp,                                                                   # #
 # #                                                                                                           # #
-# #          12. g++ ATCVM.cpp                                                                                # #
-# #          13. ./a.out                                                                                      # #
+# #          8. g++ ATCVM.cpp                                                                                # #
+# #          9. ./a.out                                                                                      # #
 # #                                                                                                           # #
 # #         If any error occurs you may contact me.                                                           # #
 # #                                                                                                           # #
