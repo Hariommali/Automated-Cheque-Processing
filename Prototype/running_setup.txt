@@ -29,8 +29,8 @@
 # #          AFTER INSTALLING THESE COMMANDS SUCCESSFULLY,                                                    # #
 # #          RUN THE MAIN FILE - ATCVM.cpp,                                                                   # #
 # #                                                                                                           # #
-# #          8. g++ ATCVM.cpp                                                                                # #
-# #          9. ./a.out                                                                                      # #
+# #          8. g++ ATCVM.cpp                                                                                 # #
+# #          9. ./a.out                                                                                       # #
 # #                                                                                                           # #
 # #         If any error occurs you may contact me.                                                           # #
 # #                                                                                                           # #
